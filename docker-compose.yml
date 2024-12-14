@@ -46,6 +46,8 @@ services:
       - DB_NAME=hearttrack
       - DB_USER=hearttrack_user
       - DB_PASSWORD=hearttrack_password
+      - CL_HOST=classifier
+      - CL_PORT=5000
 
 volumes:
   db_data:
