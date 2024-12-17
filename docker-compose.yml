@@ -47,6 +47,18 @@ services:
       - DB_PASSWORD=hearttrack_password
       - CL_HOST=classifier
       - CL_PORT=5000
+    
+  frontend:
+    build:
+      context: ./heart-disease-detection-
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - hearttrack_network
+
 
 volumes:
   db_data:
