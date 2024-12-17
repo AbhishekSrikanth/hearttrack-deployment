@@ -4,6 +4,3 @@
 [submodule "hearttrack-classifier"]
 	path = hearttrack-classifier
 	url = https://github.com/AbhishekSrikanth/hearttrack-classifier
-[submodule "heart-disease-detection-"]
-	path = heart-disease-detection-
-	url = https://github.com/rishwariii/heart-disease-detection-
