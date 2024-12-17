@@ -4,3 +4,6 @@
 [submodule "hearttrack-classifier"]
 	path = hearttrack-classifier
 	url = https://github.com/AbhishekSrikanth/hearttrack-classifier
+[submodule "hearttrack-frontend"]
+	path = hearttrack-frontend
+	url = https://github.com/AbhishekSrikanth/hearttrack-frontend
