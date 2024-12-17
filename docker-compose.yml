@@ -50,7 +50,7 @@ services:
     
   frontend:
     build:
-      context: ./heart-disease-detection-
+      context: ./hearttrack-frontend
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
